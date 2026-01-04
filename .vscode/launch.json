@@ -1,0 +1,164 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+} <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT REN New Renewable Energy Nusantara - PLTS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600?text=Solar+Power+Plant'); /* Ganti dengan gambar PLTS asli */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .about, .services, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PT REN New Renewable Energy Nusantara</h1>
+        <p>Energi Terbarukan untuk Masa Depan Nusantara</p>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>PLTS: Solusi Energi Bersih dan Berkelanjutan</h1>
+            <p>Kami menyediakan pembangkit listrik tenaga surya untuk rumah, bisnis, dan industri.</p>
+            <button onclick="alert('Hubungi kami untuk konsultasi!')">Pelajari Lebih Lanjut</button>
+        </div>
+    </div>
+
+    <section class="about">
+        <h2>Tentang Kami</h2>
+        <p>PT REN New Renewable Energy Nusantara adalah perusahaan terdepan dalam pengembangan energi terbarukan di Indonesia. Kami fokus pada Pembangkit Listrik Tenaga Surya (PLTS) untuk memberikan solusi energi bersih, efisien, dan ramah lingkungan. Dengan tim ahli dan teknologi terkini, kami berkomitmen untuk mendukung transisi energi hijau di Nusantara.</p>
+    </section>
+
+    <section class="services">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li><strong>Instalasi PLTS Rumah Tangga:</strong> Sistem surya untuk mengurangi biaya listrik bulanan.</li>
+            <li><strong>PLTS Komersial:</strong> Solusi untuk bisnis dan industri dengan kapasitas besar.</li>
+            <li><strong>Konsultasi dan Pemeliharaan:</strong> Layanan pemasangan, monitoring, dan perawatan jangka panjang.</li>
+            <li><strong>Edukasi Energi Terbarukan:</strong> Workshop dan seminar tentang manfaat PLTS.</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Siap untuk beralih ke energi surya? Kontak kami untuk penawaran gratis!</p>
+        <p>Email: info@ren-renewable.com | Telepon: +62 123 456 7890</p>
+        <p>Alamat: Jakarta, Indonesia</p>
+        <button onclick="window.location.href='mailto:info@ren-renewable.com'">Kirim Email</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 PT REN New Renewable Energy Nusantara. Semua hak dilindungi.</p>
+    </footer>
+
+    <script>
+        // Script sederhana untuk interaktivitas (opsional)
+        console.log("Landing page PLTS dimuat!");
+    </script>
+</body>
+</html>
